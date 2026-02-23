@@ -347,6 +347,28 @@ p {
   padding: 0 2rem;
 }
 
+/* Hero Portrait */
+.hero-portrait {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-portrait img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  transition: var(--transition);
+}
+
+.hero-portrait img:hover {
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
 /* Hero Brand Text */
 .hero-brand {
   margin-bottom: 2rem;
