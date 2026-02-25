@@ -369,6 +369,16 @@ p {
   border-color: rgba(255, 255, 255, 0.4);
 }
 
+.hero-name {
+  margin-top: 0.75rem;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
 /* Hero Brand Text */
 .hero-brand {
   margin-bottom: 2rem;
